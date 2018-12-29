@@ -1,0 +1,8 @@
+fastai==0.7.0
+Flask
+graphviz
+sklearn_pandas
+isoweek
+pandas_summary
+torchtext
+werkzeug

@@ -1,0 +1,84 @@
+body{
+    font-family: sans-serif;
+}
+
+section{
+    padding: 50px;
+}
+
+button{
+    border-radius: 0!important;
+    border:2px solid #ccc !important;
+    float: right;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#main-content{
+    min-height:80%;
+    background-color:dodgerblue;
+    position:relative;
+}
+
+.heading{
+    font-weight: bolder;
+    color:dodgerblue;
+}
+.heading-inverse{
+    font-weight: bolder;
+    color:#fff;
+}
+
+.user-image {
+    margin: 0 auto;
+    margin-bottom:50px;
+    text-align: center;
+    
+    img{
+        border: 5px solid white;
+    }
+    
+}
+img{
+    max-width:50%;
+    border:4px solid white;
+}
+
+.vhCenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.line{
+    width:50%;
+    height:4px;
+    background-color:#999;
+    margin: 10px 0px;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+footer{
+    padding: 15px;
+    background: #666;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size:28px; 
+}
+.bg1{
+/*    background-image:url("mdb_bg2.jpg");*/
+    background-size: cover;
+}
+#banner{
+    min-height:50%;
+    background-color:aliceblue;
+    position:relative;
+}

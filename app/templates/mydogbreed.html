@@ -1,0 +1,40 @@
+{% include "includes/header.html" %}
+
+    <section id='banner' class='container-fluid bg1'>
+        <div class="banner-info vhCenter">
+            <h4 class='heading'>mydogbreed</h4>
+            <div class='line'></div>
+            <p>Upload a pic of your doggo to identify the breed.</p>
+            <button class="btn btn-primary">SO COOL RIGHT?</button>
+        </div>
+    </section>
+    
+    <section id="main-content" class='container-fluid'>
+        <div class="row">
+            <div class="col"></div>
+            <h2 class='heading-inverse text-center'>Dog Breed Identifier
+                <div style="margin:10px auto; background:white" class="line"></div></h2>
+            
+            <div class="col-8 vhCenter">
+                <div class='user-image'>
+                    <img src="http://www.placehold.it/400x300"/>
+                </div>
+            <div class="row">
+            <form method="post" enctype="multipart/form-data">
+                    <div class="input-group mb-3">
+                      <div class="custom-file">
+                        <input type="file" name="file">
+<!--                        <input type="text" name="breed" placeholder="breed">-->
+                        <input type="submit" value="upload">
+                      </div>
+                    </div>
+                </form>
+            </div>
+            </div>
+            <div class="col"></div>
+        </div>
+        
+        
+
+    </section>
+{% include "includes/footer.html" %}

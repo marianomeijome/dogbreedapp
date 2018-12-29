@@ -1,0 +1,29 @@
+{% include "includes/header.html" %}
+
+    <section id='banner' class='container-fluid'>
+        <div class="banner-info vhCenter">
+            <h4 class='heading'>mydogbreed</h4>
+            <div class='line'></div>
+            <p>Check your results below</p>
+            <button class="btn btn-primary">Nice!</button>
+        </div>
+    </section>
+    
+    <section id="main-content" class='container-fluid'>
+        <div class="row">
+            <div class="col"></div>
+            <h2 class='heading-inverse text-center'>THE MODEL
+                <div style="margin:10px auto; background:white" class="line"></div></h2>
+            
+            <div class="col-8 vhCenter">
+                <div class='user-image'>
+                    <img src="/uploads/mdb/{{filename}}"/>
+                </div>
+                <h1>{{breedName[0]}}%</h1>
+            </div>
+            
+            <div class="col"></div>
+        </div>
+
+    </section>
+{% include "includes/footer.html" %}
